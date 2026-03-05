@@ -1,0 +1,50 @@
+name: pisonet_mobile
+description: "Pisonet Mobile Monitor App"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # ✅ WebRTC – FIXED Android embedding (Git)
+  flutter_webrtc:
+    git:
+      url: https://github.com/flutter-webrtc/flutter-webrtc.git
+      ref: main
+
+  # Firebase (stable + compatible)
+  firebase_core: ^2.32.0
+  firebase_auth: ^4.16.0
+  cloud_firestore: ^4.15.0
+  firebase_database: ^10.4.6
+
+  http: ^1.2.0
+  cupertino_icons: ^1.0.8
+  visibility_detector: ^0.4.0+2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+  # App icon generation
+  flutter_launcher_icons: ^0.13.1
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icon/pisonet_icon.png
+
+flutter_icons:
+  android: true
+  ios: false
+  image_path: "assets/icon/pisonet_icon.png"
+  adaptive_icon_background: "#020617"
+  adaptive_icon_foreground: "assets/icon/pisonet_icon.png"

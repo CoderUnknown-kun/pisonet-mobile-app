@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "713174022336",
+    "firebase_url": "https://mlsn-industries-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "mlsn-industries",
+    "storage_bucket": "mlsn-industries.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:713174022336:android:f0fbf74a102f5038fbd525",
+        "android_client_info": {
+          "package_name": "com.mlsn.pisonet"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD6a3xlAr0Ql10s0sCahgyKsNmNBIo2b9A"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
