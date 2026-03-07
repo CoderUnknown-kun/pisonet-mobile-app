@@ -1,6 +1,6 @@
 # Remote Control Mobile
 
-Flutter mobile application used to monitor and control pisonet computers remotely.
+Flutter mobile application used to monitor and control remote devices.
 
 ## Features
 
