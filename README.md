@@ -1,4 +1,4 @@
-# Pisonet Mobile App
+# Remote Control Mobile
 
 Flutter mobile application used to monitor and control pisonet computers remotely.
 
